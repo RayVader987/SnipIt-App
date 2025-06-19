@@ -46,7 +46,7 @@ Replace:
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
 ```
 
-## 3. Twilio API
+### 3. Twilio API
 ```python
 account_sid = "YOUR_ACCOUNT_SID"
 auth_token = "YOUR_AUTH_TOKEN"
@@ -94,8 +94,8 @@ python filename.py
 
 ## App Flow
 ### 1. Choose between:
-      ### 1 → Wikipedia Summary
-      ### 2 → Latest News
+  #### 1 → Wikipedia Summary
+  #### 2 → Latest News
 
 ### 2. Choose if you want to use voice input or type
 App checks for duplicates in the database
@@ -113,6 +113,6 @@ Summary/news is fetched
 ## Created By-
 ### Raima Deb
 ### 2nd-Year Computer Science Student
-## With ❤️ and curiosity for AI, APIs, and Automation
+#### With ❤️ and curiosity for AI, APIs, and Automation
 
 
