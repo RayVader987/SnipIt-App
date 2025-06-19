@@ -10,25 +10,25 @@ import speech_recognition as sr
 import pyttsx3
 
 # === CONFIGURE GEMINI ===
-genai.configure(api_key="AIzaSyB6mNUVs8KN5Dqw2LrYbHmYM1PU0wuyn7U")
+genai.configure(api_key="enter your gemini api key here")    ##Replace with GEMINI API here
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # === CONFIGURE TWILIO ===
-account_sid = "ACeb80ecd6c0d10d2ae184f8ae7803b92e"
-auth_token = "7ba202c8c878024271cdfa8400aa9e87"
+account_sid = "enter your twilio account_sid"
+auth_token = "enter the auth toke"
 twilio_client = Client(account_sid, auth_token)
-twilio_phone = "+17622043819"
-your_phone = "+917439151268"
+twilio_phone = "enter the twilio phone number generated here"
+your_phone = "enter your number where you want to receive the notification here"
 
 # === CONFIGURE NEWS API ===
-NEWS_API_KEY = "ec0692ffd89f409e9757c6eb02ddce38"
+NEWS_API_KEY = "enter api generated from new api website"    ##Replace with api generated from newsapi website
 
 # === CONNECT TO MYSQL ===
 try:
     db = mysql.connector.connect(
         host="127.0.0.1",
         user="root",
-        password="raima1105",
+        password="enter your MySQL password here",
         database="wikipedia_db"
     )
 except Error as err:
