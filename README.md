@@ -111,8 +111,8 @@ Summary/news is fetched
 
 
 ## Created By-
-### Raima Deb
+## Raima Deb
 ### 2nd-Year Computer Science Student
-#### With ❤️ and curiosity for AI, APIs, and Automation
+### With ❤️ and curiosity for AI, APIs, and Automation
 
 
